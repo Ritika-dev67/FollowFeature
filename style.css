@@ -1,0 +1,56 @@
+.container{
+    background-color:blanchedalmond;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+#img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+
+}
+h3{
+    font-size: xx-large;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: crimson;
+    
+}
+#confirm{
+    font-size:1rem;
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+    
+    padding: 15px;
+    border: none;
+    background-color:blue;
+    border-radius: 10px;
+    margin-right: 10px ;
+    
+    
+}
+#delete{
+    font-size: 1rem;
+    font-weight: bolder;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    padding: 15px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    
+}
+#confirm:hover{
+    cursor: pointer;
+}
+#delete:hover{
+    cursor: pointer;
+}
